@@ -1,0 +1,14 @@
+{
+  "name": "ng-loading-skeleton",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/core": ">=9.0.0",
+    "@angular/common": ">=9.0.0"
+  },
+  "dependencies": {},
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public-api.ts"
+    }
+  }
+}

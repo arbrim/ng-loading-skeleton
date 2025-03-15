@@ -11,6 +11,11 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "paths": {
+      "ng-loading-skeleton": [
+        "./dist/ng-loading-skeleton"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,

@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Publishing package updates
+
+Follow the below listing instructions:
+
+1. From root go to below directory
+```
+cd projects/ng-loading-skeleton/
+```
+
+2. Build it
+```
+ng build ng-loading-skeleton
+```
+
+3. Go to the dist folder `cd dist/ng-loading-skeleton`
+```
+cd ../../dist/ng-loading-skeleton
+```
+
+4. Publish package to npm registry
+```
+npm publish
+```

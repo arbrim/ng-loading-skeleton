@@ -25,9 +25,10 @@ import { Component, Input } from '@angular/core';
   `]
 })
 export class NgLoadingSkeletonComponent {
-  @Input() width = '100%';
-  @Input() height = '20px';
-  @Input() borderRadius = '4px';
-  @Input() primaryColor = '#e0e0e0';
-  @Input() secondaryColor = '#f8f8f8';
+  @Input() width: string = '100%';
+  @Input() height: string = '20px';
+  @Input() borderRadius: string = '4px';
+
+  @Input() primaryColor: string = '#e0e0e0';
+  @Input() secondaryColor: string = '#f8f8f8';
 }

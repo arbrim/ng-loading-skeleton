@@ -35,17 +35,22 @@ Follow the below listing instructions:
 cd projects/ng-loading-skeleton/
 ```
 
-2. Build it
+2. Increase version if necessary inside package.json
+```
+  "version": "x.y.z",
+```
+
+3. Build it
 ```
 ng build ng-loading-skeleton
 ```
 
-3. Go to the dist folder `cd dist/ng-loading-skeleton`
+4. Go to the dist folder `cd dist/ng-loading-skeleton`
 ```
 cd ../../dist/ng-loading-skeleton
 ```
 
-4. Publish package to npm registry
+5. Publish package to npm registry
 ```
 npm publish
 ```

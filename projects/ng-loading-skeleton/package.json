@@ -1,6 +1,6 @@
 {
   "name": "ng-loading-skeleton",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A lightweight Angular loading skeleton component with customizable colors.",
   "license": "MIT",
   "files": [

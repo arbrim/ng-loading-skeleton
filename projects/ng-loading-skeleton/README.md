@@ -1,24 +1,68 @@
 # NgLoadingSkeleton
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+![npm](https://img.shields.io/npm/v/ng-loading-skeleton?color=blue&logo=npm)
+![npm downloads](https://img.shields.io/npm/dt/ng-loading-skeleton?color=green)
+![GitHub stars](https://img.shields.io/github/stars/arbrim/ng-loading-skeleton?style=social)
+![License](https://img.shields.io/github/license/arbrim/ng-loading-skeleton)
 
-## Code scaffolding
+A lightweight and customizable Angular loading skeleton component. 
 
-Run `ng generate component component-name --project ng-loading-skeleton` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ng-loading-skeleton`.
-> Note: Don't forget to add `--project ng-loading-skeleton` or else it will be added to the default project in your `angular.json` file. 
+## Installation
 
-## Build
+Install via npm:
+```sh
+npm install ng-loading-skeleton
+```
 
-Run `ng build ng-loading-skeleton` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Usage
+
+Import the module:
+```typescript
+import { NgLoadingSkeletonModule } from 'ng-loading-skeleton';
+
+@NgModule({
+  imports: [NgLoadingSkeletonModule]
+})
+export class AppModule {}
+```
+
+Use in templates:
+```html
+<ng-loading-skeleton width="150px" height="30px" primaryColor="#ccc" secondaryColor="#ddd"></ng-loading-skeleton>
+```
+
+## Features
+- ✅ Customizable width, height, and border-radius
+- 🎨 Customizable **primary and secondary colors**
+- 🚀 Lightweight and easy to use
+- 🔄 Animated shimmer effect
+
+## Development & Contributions
+
+1. Clone the repo:
+   ```sh
+   git clone https://github.com/arbrim/ng-loading-skeleton.git
+   cd ng-loading-skeleton
+   ```
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
+3. Build the package:
+   ```sh
+   ng build ng-loading-skeleton
+   ```
 
 ## Publishing
 
-After building your library with `ng build ng-loading-skeleton`, go to the dist folder `cd dist/ng-loading-skeleton` and run `npm publish`.
+After building your library with `ng build ng-loading-skeleton`, go to the dist folder `cd dist/ng-loading-skeleton` and run:
+```sh
+npm publish --access public
+```
 
 ## Running unit tests
 
 Run `ng test ng-loading-skeleton` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+This project is licensed under the MIT License - see the [LICENSE](../../LICENSE) file for details.

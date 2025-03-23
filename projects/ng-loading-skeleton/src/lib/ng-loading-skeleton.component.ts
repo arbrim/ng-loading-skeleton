@@ -1,10 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'ng-loading-skeleton', // ✅ unified selector
-  standalone: true,
-  imports: [CommonModule],
+  selector: 'ng-loading-skeleton-impl',
   template: `
     <div
       [ngStyle]="{

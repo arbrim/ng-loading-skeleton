@@ -1,12 +1,8 @@
 {
   "name": "ng-loading-skeleton",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "A lightweight Angular loading skeleton component with customizable colors.",
   "license": "MIT",
-  "files": [
-    "dist",
-    "LICENSE"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/arbrim/ng-loading-skeleton.git"

@@ -1,16 +1,19 @@
+import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ng-loading-skeleton',
+  standalone: true,
+  imports: [CommonModule],
   template: `
-    <div 
+    <div
       [ngStyle]="{
-        width: width, 
-        height: height, 
-        borderRadius: borderRadius, 
+        width: width,
+        height: height,
+        borderRadius: borderRadius,
         background: 'linear-gradient(90deg, ' + primaryColor + ' 25%, ' + secondaryColor + ' 50%, ' + primaryColor + ' 75%)',
         backgroundSize: '400% 100%'
-      }" 
+      }"
       class="skeleton"
     ></div>
   `,

@@ -7,6 +7,10 @@
 
 A lightweight and customizable Angular loading skeleton component. 
 
+![alt text](image.png)
+
+Used and tested at: https://github.com/arbrim/ng-loading-skeleton-no-standalone-test
+
 ## Installation
 
 Install via npm:
